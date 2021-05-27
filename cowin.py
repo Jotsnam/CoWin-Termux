@@ -31,7 +31,7 @@ class CoWinBook():
         mobile_no,
         pin = "Not Passed",
         age = 18 ,
-        vaccine = "ANY",
+        vaccine = "Covaxin",
         dose = 1,
         otp = 'a',
         time = 30,
@@ -277,7 +277,7 @@ class CoWinBook():
                 capacity = session.get(f'available_capacity_dose{self.dose}')
                 session_date = session.get('date')
                 
-                vaccine_name = session.get('vaccine') + "ANY"
+                vaccine_name = session.get('vaccine') + "Covaxin"
 
                 if capacity > 1 and \
                     self.vaccine in vaccine_name and \
