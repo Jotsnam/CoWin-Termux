@@ -62,7 +62,8 @@ Command for script :
 
 ### :bulb: Optional arguments accepted:
   - Pass `--o` = OTP fetching mode.`a` = AutoMode `s` = SiteMode `m` = ManualMode
-    ( deault AutoMode )
+    ( deault ManualMode )
   - Pass `--a = YOUR-AGE ` with your age (default is 18).
   - Pass `--d = DOSE_COUNT` Vaccine First Dose or Second Dose (default dose is 1).
   - Pass `--t = INTERVAL-IN-SECOND` to change the frequency of calling Cowin API  (default is 30 sec).
+  - Pass `--v = VACCINE` Any preferance of vaccine if needed(default ANY)
