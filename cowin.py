@@ -36,7 +36,7 @@ class CoWinBook():
         otp = 'a',
         time = 30,
         bookToday = 1,
-        checking = ''
+        checking = '',
         relogin = None ):
 
         self.mobile_no = str(mobile_no)
