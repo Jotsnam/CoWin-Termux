@@ -36,6 +36,7 @@ class CoWinBook():
         otp = 'a',
         time = 30,
         bookToday = 1,
+        testing = ''
         relogin = None ):
 
         self.mobile_no = str(mobile_no)
@@ -73,6 +74,10 @@ class CoWinBook():
 
         # Data for sending request
         self.data = {} 
+        
+        # Checking the code
+        self.testing = testing.upper()
+        print(f"Testing  🔃\n{testing}")
 
         # Token Recieved from CoWIN
         self.bearerToken = None  # Session Token
